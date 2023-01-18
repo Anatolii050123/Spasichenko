@@ -34,6 +34,29 @@
           rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
           rel="apple-touch-icon">
+    <style>
+        .div-block-12 {
+            flex-direction: row-reverse;
+        }
+        .text-block-9 {
+            padding-left: 15px;
+        }
+
+        .emoji  {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+        }
+
+        .div-block-6:nth-child(2n) {
+            background-color: #888;
+            color: blue;
+        }
+
+        .div-block-6:nth-child(2n) .text-block-5 {
+            color: blue;
+        }
+    </style>      
 </head>
 <body>
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
@@ -248,7 +271,12 @@
                 </div>
             </div>
             <div class="div-block-9">
-                <div class="text-block-6">Приєднуйся до відкритого заняття - постав свої питання</div>
+                <div class="text-block-6">
+                    Приєднуйся до відкритого заняття
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/sparkles_2728.png" alt="stars" class="emoji" />
+                    постав свої питання
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/monkey_1f412.png" alt="monkey" class="emoji" />
+                </div>
                 <img alt="" class="image-6 mobile qa" loading="lazy"
                      src="resources/images/arrow-rounded.png"><a
                     class="button2 scroll-to mobile smoothscroll" data-w-id="5a32690a-a66a-3354-987e-046ad719c696"
@@ -326,7 +354,7 @@
             <div class="div-block-15">
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10" style="text-align: center;"><span style="text-decoration: underline; color: indigo;">.. вже досягнуто</span style="font-size: bold"> максимального рівня на поточному місці
+                    <div class="text-block-10" style="text-align: center;"><span style="text-decoration: underline; color: z;">.. вже досягнуто</span> максимального рівня на поточному місці
                         роботи?
                     </div>
                 </div>
@@ -338,13 +366,13 @@
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10" style="text-align: center;"><span style="color: red;">.. в тебе не цікава робота </span style="color: blue">або взагалі не особливо
+                    <div class="text-block-10" style="text-align: center;"><span style="color: red;">.. в тебе не цікава робота </span>або взагалі не особливо
                         пишаєшся тим, чим займаєшся?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10" style="text-align: justify;"><span style="text-decoration: line-through; color: bisque;">.. хочеш переїхати до іншої країни, </span>але професія за
+                    <div class="text-block-10" style="text-align: justify;"><span style="text-decoration: line-through;">.. хочеш переїхати до іншої країни, </span>але професія за
                         фахом, як і твої навики там не затребувані?
                     </div>
                 </div>
